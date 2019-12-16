@@ -9,8 +9,6 @@
 		"editorLineNumber.foreground": "#404953",
 		"activityBarBadge.background": "#2D333A",
 		"sideBarTitle.foreground": "#bbbbbb",
-		"activityBar.background": "#000C1D",
-		"activityBar.border": "#102a44",
 		"sideBar.background": "#24282e",
 		"sideBar.border": "#2D333A",
 		"sideBar.foreground": "#90A0B1",
@@ -32,8 +30,7 @@
 		"tab.inactiveBackground":"#24282e",
 		"tab.border":"#2D333A",
 		"statusBar.background":"#24282e",
-		"statusBar.foreground": "#90A0B1",
-		"scroll"
+		"statusBar.foreground": "#90A0B1"
 	},
 	"tokenColors": [
 		{
@@ -605,7 +602,7 @@
 				"markup.quote"
 			],
 			"settings": {
-				"fontStyle": "italic",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -738,7 +735,7 @@
 				"variable.other.readwrite.class.ruby"
 			],
 			"settings": {
-				"foreground": "#4C9C9D",
+				"foreground": "#4C9C9D"
 			}
 		}
 	]
