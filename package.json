@@ -4,6 +4,7 @@
     "description": "A dark color theme designed to be easy on the eyes. Inspired by Solarized with a pastel twist",
     "version": "0.3.0",
     "publisher": "kreek",
+    "repository": "https://github.com/kreek/pigs-in-space-vscode-theme.git",
     "engines": {
         "vscode": "^1.40.0"
     },
