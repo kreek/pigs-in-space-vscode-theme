@@ -2,7 +2,7 @@
     "name": "pigs-in-space",
     "displayName": "Pigs in Space",
     "description": "A dark color theme designed to be easy on the eyes. Inspired by Solarized with a pastel twist",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.40.0"
     },
