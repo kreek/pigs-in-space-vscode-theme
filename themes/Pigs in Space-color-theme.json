@@ -53,7 +53,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#A9B7C6"
+				"foreground": "#90A0B1"
 			}
 		},
 		{
@@ -152,7 +152,7 @@
 				"support.function"
 			],
 			"settings": {
-				"foreground": "#d6d6d6"
+				"foreground": "#cccccc"
 			}
 		},
 		{
@@ -752,6 +752,7 @@
 				"keyword.operator.other.ruby",
 				"keyword.operator.comparison.ruby",
 				"keyword.operator.arithmetic.ruby",
+				"keyword.operator.logical.ruby",
 				"punctuation.section.array.begin.ruby",
 				"punctuation.section.array.end.ruby",
 				"punctuation.section.scope.begin.ruby",
