@@ -30,7 +30,9 @@
 		"tab.inactiveBackground":"#24282e",
 		"tab.border":"#2D333A",
 		"statusBar.background":"#24282e",
-		"statusBar.foreground": "#90A0B1"
+		"statusBar.foreground": "#90A0B1",
+		"editorIndentGuide.activeBackground": "#454a4e",
+    	"editorIndentGuide.background": "#353c42"
 	},
 	"tokenColors": [
 		{
@@ -138,11 +140,19 @@
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
-				"support.function",
 				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#FFC66D"
+			}
+		},
+		{
+			"name": "Support Function",
+			"scope": [
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#d6d6d6"
 			}
 		},
 		{
@@ -212,15 +222,12 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 				"string.quoted.single.ruby",
 				"punctuation.definition.string.begin.ruby",
-				"punctuation.definition.string.end.ruby",
-				"punctuation.section.array.begin.ruby",
-				"punctuation.section.array.end.ruby"
+				"punctuation.definition.string.end.ruby"
 			],
 			"settings": {
 				"foreground": "#A5C25C"
@@ -229,7 +236,6 @@
 		{
 			"name": "Class, Support",
 			"scope": [
-				"entity.name",
 				"support.type",
 				"support.class",
 				"support.orther.namespace.use.php",
@@ -282,8 +288,7 @@
 				"variable.language"
 			],
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#C3A7C1"
+				"foreground": "#F4CDCF"
 			}
 		},
 		{
@@ -732,10 +737,28 @@
 		{
 			"name": "Ruby Class Variable",
 			"scope": [
-				"variable.other.readwrite.class.ruby"
+				"variable.other.readwrite.class.ruby",
+				"punctuation.definition.constant.hashkey.ruby"
 			],
 			"settings": {
 				"foreground": "#4C9C9D"
+			}
+		},
+		{
+			"name": "Ruby Operators",
+			"scope": [
+				"keyword.operator.assignment.ruby",
+				"keyword.operator.assignment.augmented.ruby",
+				"keyword.operator.other.ruby",
+				"keyword.operator.comparison.ruby",
+				"keyword.operator.arithmetic.ruby",
+				"punctuation.section.array.begin.ruby",
+				"punctuation.section.array.end.ruby",
+				"punctuation.section.scope.begin.ruby",
+				"punctuation.section.scope.end.ruby"
+			],
+			"settings": {
+				"foreground": "#90A0B1"
 			}
 		}
 	]
