@@ -31,19 +31,24 @@
 		"tab.border":"#2D333A",
 		"statusBar.background":"#24282e",
 		"statusBar.foreground": "#90A0B1",
-		"editorIndentGuide.activeBackground": "#454a4e",
-    	"editorIndentGuide.background": "#353c42"
+		"editorIndentGuide.activeBackground1": "#454a4e",
+		"editorIndentGuide.background1": "#353c42"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.comment"
+				"punctuation.definition.comment",
+				"string.quoted.docstring",
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.single.python",
+				"punctuation.definition.string.begin.python",
+				"punctuation.definition.string.end.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#535E6B"
+				"foreground": "#636E80"
 			}
 		},
 		{
@@ -500,8 +505,8 @@
 		},
 		{
 			"name": "JSON Key - Level 8",
-			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#4C9C9D"
@@ -757,6 +762,26 @@
 				"punctuation.section.array.end.ruby",
 				"punctuation.section.scope.begin.ruby",
 				"punctuation.section.scope.end.ruby"
+			],
+			"settings": {
+				"foreground": "#90A0B1"
+			}
+		},
+		{
+			"name": "Ruby Symbols",
+			"scope": [
+				"constant.language.symbol.hashkey.ruby"
+			],
+			"settings": {
+				"foreground": "#4C9C9D"
+			}
+		},
+		{
+			"name": "Braces",
+			"scope": [
+				"punctuation.section.block.begin",
+				"punctuation.section.block.end",
+				"punctuation.definition.block"
 			],
 			"settings": {
 				"foreground": "#90A0B1"
