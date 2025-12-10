@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "publisher": "kreek",
     "repository": "https://github.com/kreek/pigs-in-space-vscode-theme.git",
+    "icon": "images/pigs-in-space-logo.png",
     "license": "MIT",
     "engines": {
         "vscode": "^1.40.0"
