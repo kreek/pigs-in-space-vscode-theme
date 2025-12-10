@@ -86,6 +86,8 @@
 		"notifications.background": "#1d2228",
 		"peekViewEditor.background": "#1d2228",
 		"peekViewResult.background": "#1d2228",
+		"editor.wordHighlightBackground": "#4a566380",
+		"editor.wordHighlightStrongBackground": "#4a566380",
 		"peekViewTitle.background": "#1d2228"
 	},
 	"tokenColors": [
